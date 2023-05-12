@@ -1,0 +1,14 @@
+Create a traffic light system using hooks:
+
+Design a UI containing traffic light signal(Cricular), Red, Green, Yellow.
+1.Each sign will will have the respective message and a signal image
+2.Red: Stop/Stop image
+3.Yellow: Ready/Ready image
+4.Green: Go/Go Image
+5.create a timer for showing the signal
+a.Timer will be 1 min for red,
+b. 30 sec for yellow
+c. 2 mins for green
+6. Once time completed show the current signal with respective message, image and it will repeat itself.(Red-yellow-green-red-yellow-green)
+7.By default on load of page default signal should be red, with default message and image.
+8.There should be mannual change of signal also.Once user click on any signal will be selected and then repective message and image will be shown and timer will be reset accordingly.

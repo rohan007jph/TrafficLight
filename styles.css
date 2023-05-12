@@ -1,0 +1,47 @@
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px; /* Adjust the width as needed */
+  background-color: black;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.light.red {
+  background-color: red;
+}
+
+.light.yellow {
+  background-color: yellow;
+}
+
+.light.green {
+  background-color: green;
+}
+
+.light.active {
+  box-shadow: 0 0 10px rgba(255, 255, 255);
+}
+
+.signal-message {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.timer {
+  margin-top: 10px;
+  font-size: 18px;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: skyblue;
+}
